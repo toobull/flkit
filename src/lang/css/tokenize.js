@@ -126,7 +126,7 @@ export default class extends BaseTokenize {
         tmpValue += this.getCommentToken(1, false).value;
         continue;
       }
-      if(tmpValue){
+      if(tmpValue && code !== 0x5b){
         tmpValue += chr;
         tmpFlag = true;
       }

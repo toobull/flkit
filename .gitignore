@@ -37,3 +37,8 @@ lib/
 
 web/app/
 web/node_modules
+
+package-lock.json
+
+# For WebStorm
+.idea
